@@ -1,0 +1,37 @@
+{
+  "model": "Horus Earth Model",
+  "version": "0.1.0",
+  "dataset": {
+    "country": "Egypt",
+    "country_code": "EG"
+  },
+  "entity_types": {
+    "country": "Country",
+    "governorate": "Governorate",
+    "district": "District",
+    "center": "Center",
+    "city": "City",
+    "village": "Village",
+    "neighborhood": "Neighborhood",
+    "river": "River",
+    "river_branch": "RiverBranch",
+    "canal": "Canal",
+    "lake": "Lake",
+    "port": "Port",
+    "border": "InternationalBorder",
+    "coastline": "Coastline"
+  },
+  "geometry_types": [
+    "Point",
+    "LineString",
+    "Polygon",
+    "MultiPolygon"
+  ],
+  "verification": {
+    "statuses": [
+      "UNVERIFIED",
+      "PARTIALLY_VERIFIED",
+      "VERIFIED"
+    ]
+  }
+}

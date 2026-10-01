@@ -1,0 +1,20 @@
+{
+  "dataset_id": "horus-egypt",
+  "name": "Horus Earth Model - Egypt",
+  "version": "0.1.0",
+  "country": "Egypt",
+  "country_code": "EG",
+  "status": "development",
+  "purpose": "Initial geographic dataset for the Horus Earth Model",
+  "source_policy": {
+    "invent_missing_data": false,
+    "preserve_unverified_data": true,
+    "geometry_requires_explicit_data": true
+  },
+  "layers": [
+    "national",
+    "administrative",
+    "hydrography",
+    "places"
+  ]
+}
