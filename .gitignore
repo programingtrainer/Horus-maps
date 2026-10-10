@@ -1,0 +1,20 @@
+# Build outputs
+build/
+app/build/
+
+# Signing keys and credentials
+keys/
+*.keystore
+*.jks
+local.properties
+.env
+
+# Backup copies of source files
+*.backup
+*.bak
+
+# Generated Android files
+*.class
+*.dex
+*.apk
+*.idsig
