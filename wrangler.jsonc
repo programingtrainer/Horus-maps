@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "horus-maps",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-11",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "horus-maps-db",
+      "database_id": "e6d29685-2562-4334-8d22-9a499fe6d3ce"
+    }
+  ]
+}
